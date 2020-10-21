@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> learn simple css</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{
+background-color:#918c9f84;
+margin:0px;
+font-family:verdana,georgia,serif;
+font-size:14px;
+
+}
+#header{
+background-color:#5c755e;
+margin:10px;
+height:90px;
+border-radius:5px;
+}
+h1{
+font-size:120%;
+color:#ce282e;
+}
+#navbar
+{
+    margin-top:5px
+    border-radius:10px;
+    
+}
+
+#navbar ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:5px;
+    padding:0
+}
+
+#navbar ul a
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navbar ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#navbar ul li.current-menu-item
+{
+    background:#ddd;
+    margin-left:10px;
+}
+
+#navbar ul li:hover
+{
+    background:#f6f6f6;
+}
+
+#navbar ul ul
+{
+display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:#fff;
+    padding:0
+}
+
+#navbar ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#navbar ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+#navbar ul li:hover > ul
+{
+    display:block
+}
+
+.main{
+background-color:#e5e4d7;
+margin-left:10px;
+margin-right:100px;
+margin-top:10px;
+margin-bottom:10px;
+border-radius:5px;
+font-size:100%;
+padding:5px;
+}
+.imgsidebar{
+margin-left:10px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:10px;
+width:90px;
+float:right;
+clear:right;
+opacity:1.0;
+transition:opacity 2s ease-in-out;
+}
+imgsidebar:hover{
+opacity:0.4;
+}
+.sideright{
+background-color:#e5e4d7;
+margin-left:10px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:10px;
+border-radius:5px;
+font-size:100%;
+padding:5px;
+float:right;
+clear:right;
+}
+h2{
+font-size:120%;
+color:darkblue;
+text-transform:capitalize;
+}
+h3{
+text-align:center;
+color:#fff;
+font-family:sans serif,Arial;
+position:relative;
+top:30%;
+font-size:200%;
+} /*
+.main p{ 
+    text-indent:30px;
+    text-align:justify;
+} */
+#footer{
+background-color:#5c755e;
+margin:10px;
+height:60px;
+border-radius:5px;
+clear:both;
+color:#efe5d0;
+text-align:center;
+padding:5px;
+font-size:90%;
+}
+#footer ul{
+text-align:center;
+list-style-type:none;
+padding:0px;
+}
+#footer ul li{
+display:inline;
+}
+#footer ul li a{
+text-decoration:none;
+font-family:arial;
+padding:1.8%;
+color:#fff;
+border-radius:5px;
+text-transform:capitalize;
+}
+#footer ul li a:hover{
+color:#5c775e;
+background-color:#fff;
+}
+
+</style>
+</head>
+<body>
+<div id="header">
+<h3>Full Course of HTML 5 and CSS 3 </h3>
+</div>
+<div id="navbar">
+<ul>
+  <li class="current-menu-item"><a href="#">Home</a></li>
+  <li><a href="#">tutorial</a>
+    <ul>
+      <li><a href="https://medium.com/javarevisited/top-10-free-courses-to-learn-html-5-css-3-and-web-development-872d62d97a97">modul.1</a></li>
+      <li><a href="https://www.udemy.com/course/how-i-landed-a-web-development-job-earned-5k-freelancing/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-NoVg59qdEojaOQIY0r3eGw&utm_medium=udemyads&utm_source=aff-campaign">Udamy tutorial </a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS">developer</a></li>
+      <li><a href="http://www.vogella.com/tutorials/CSS/article.html">vogella</a></li>
+    </ul>
+  </li>
+  <li><a href="#"><h1>About Us </h1></a>
+    <ul>
+      <li><a href="#">condact us</a></li>
+      <li><a href="#">feedback</a></li>
+      <li><a href="#">comments</a></li>
+    </ul>
+  </li>
+  <li><a href="#">others</a>
+    <ul>
+      <li class="dir"><a href="http://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C">video</a></li>
+      <li class="dir"><a href="#">others</a>
+        <ul>
+          <li><a href="http://a4academics.com/interview-questions/79-web/817-css-css3?showall=&start=1">interview questions</a></li>
+          <li><a href="https://stackoverflow.com/questions/tagged/css">doubts</a></li>
+          <label>apps</label>
+          <li><a href="https://play.google.com/store/apps/details?id=com.andromo.dev618788.app602411">app1</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.futurevisioncomputers.css">app2</a></li>
+        </ul>
+      </li>
+      </ul>
+      </li>
+      </ul>
+      </div>
+     <br>
+     <br>
+<div>
+<img class="imgsidebar" src="https://pbs.twimg.com/profile_images/993504415/css_400x400.png">
+</div>
+<div class="sideright">
+<h2>chapters</h2>
+<p>
+Syntax</br>
+Style<br>
+Fonts<br>
+Text<br>
+Images<br>
+Borders<br>
+Tables<br>
+Colors<br>
+Margins<br>
+Paddings<br>
+Outlines<br>
+</p></div>
+<div class="sideright">
+<h2>chapters</h2>
+<p>
+Outlines<br>
+List<br>
+Dropdowns<br>
+Position<br>
+Height &amp;<br>
+Width<br>
+Layout<br>
+Animatable<br>
+Selectors<br>
+</p>
+</div>
+<div class="main">
+<h1>Cascading Style Sheets (CSS)</h1>
+<p>Cascading Style Sheets (CSS) is a style sheet 
+language used for describing the 
+presentation of a document written 
+in a markup language.</p><p>Although most often 
+used to set the visual style of web pages 
+and user interfaces written in HTML and 
+XHTML, the language can be applied 
+to any XML document, including plain 
+XML, SVG and XUL, and is applicable 
+to rendering in speech, or on other 
+media.</p><p>Along with HTML and JavaScript,
+ CSS is a cornerstone technology used 
+ by most websites to create visually 
+ engaging webpages, user interfaces 
+ for web applications, and user 
+ interfaces for many mobile applications.css have 2 types of layout fluid and fixed.</p>
+ </div>
+ <div class="main">
+ <h1>History</h1>
+ <p>
+ CSS web standard
+ CSS was first proposed by Håkon Wium Lie on October 10, 1994.At the time, 
+ Lie was working with Tim Berners-Lee at CERN.
+ Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and 
+ inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996.
+  In particular, Bert Bos' proposal was influential; 
+ he became co-author of CSS1 and is regarded as co-creator of CSS.</p>
+</div>
+<div id="footer"> 
+&copy; css.com 2020
+<ul>
+<li><a href="#">about us</a> </li>
+<li><a href="#">contact us</a> </li>
+<li><a href="">comments</a> </li>
+<li><a href="">doubts</a> </li>
+</ul>
+</div>
+</body>
+</html>
